@@ -10,7 +10,7 @@ pstree.o: pstree.c
 	$(CC) $(CFLAGS) -c $<
 
 test: main
-	./main arg1 arg2 arg3
+	./main
 
 clean:
 	rm -f main main.o
